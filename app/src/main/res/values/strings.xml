@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HNG Task 1</string>
+
+    <string name="about_alc_button">ABOUT ALC</string>
+    <string name="my_profile_button">MY PROFILE</string>
+    <string name="content_description">Profile picture of the ALC candidate</string>
+    <string name="profile_name">Utulu, Bobby Sidney</string>
+    <string name="track_android">Track:        Android</string>
+    <string name="country">Country:        Nigeria</string>
+    <string name="profile_email">Email:        bobbriqz@gmail.com</string>
+    <string name="profile_phone">Phone Number:        +2348136095115</string>
+    <string name="profile_slack">Slack Username:        @bobby</string>
+    <string name="my_profile">My Profile</string>
+    <string name="log_out">Log out</string>
+
+
+</resources>
