@@ -73,12 +73,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         AuthUI.getInstance()
                 .signOut(this);
-//                .addOnCompleteListener(new OnCompleteListener<Void>() {
-//                    @Override
-//                    public void onComplete(@NonNull Task<Void> task) {
-//                        FireBaseUtils.attachListener();
-//                    }
-//                });
+
         FireBaseUtils.dettachListener();
         super.onDestroy();
     }
