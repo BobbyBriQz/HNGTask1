@@ -13,6 +13,9 @@ import com.firebase.ui.auth.AuthUI;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
 
     public static final int RC_SIGN_IN = 1234;
@@ -23,8 +26,6 @@ public class MainActivity extends AppCompatActivity {
 
         FireBaseUtils.setUpSignIn(this);
         setContentView(R.layout.activity_main);
-
-
 
 
 
